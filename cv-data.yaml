@@ -1,0 +1,62 @@
+nombre: "Alejandro Espino Flores"
+titular: "Backend Developer | Spring Boot · Quarkus · Angular · Azure · Microservicios · Integración de IA"
+ubicacion: "Área metropolitana de Lima, Perú"
+
+contacto:
+  email: "espinofloresa@gmail.com"
+  telefono: "955 059 544"
+  linkedin: "linkedin.com/in/alejandro-espino-flores-b7b139253"
+
+resumen: >
+  Backend Developer con experiencia diseñando microservicios distribuidos en
+  Java 21 / Spring Boot 3 y arquitecturas serverless en AWS. Especializado en
+  sistemas event-driven, seguridad OAuth2/JWT, persistencia cloud (PostgreSQL,
+  Aurora) y observabilidad. Enfoque en escalabilidad, calidad de código y CI/CD.
+
+experiencia:
+  - empresa: "CSTI Corp"
+    cargo: "Senior Backend Developer — DINET (Plataforma Logística)"
+    periodo: "noviembre de 2025 – Actualidad"
+    ubicacion: "Lima, Perú"
+    logros:
+      - "Microservicios: diseñé e implementé servicios distribuidos en Java 21 / Spring Boot 3 / Spring Cloud, aplicando arquitectura hexagonal para garantizar escalabilidad y mantenibilidad."
+      - "Mensajería event-driven: procesamiento asíncrono con Azure Service Bus para desacoplar flujos de ingesta y sincronización, soportando picos de carga sin pérdida de mensajes."
+      - "Datos y almacenamiento cloud: capa de persistencia sobre Azure Database for PostgreSQL con autenticación passwordless vía Azure AD, e integración de Azure Blob Storage para evidencias y archivos."
+      - "Seguridad y gateway: autenticación centralizada con OAuth2 + JWT y secretos en Azure Key Vault, exponiendo el tráfico mediante API Gateways con trazabilidad end-to-end."
+      - "Comunicación y observabilidad: integración de servicios vía OpenFeign y Service Bus, con Micrometer + Prometheus y logging estructurado con Logstash."
+      - "Backend móvil: servicios para una app de operación en campo con formularios dinámicos, captura de evidencias y notificaciones push vía Firebase."
+      - "Calidad y DevOps: JaCoCo, SonarQube, OWASP Dependency Check y Flyway para migraciones versionadas."
+
+  - empresa: "Backend Developer"
+    cargo: "Senior Backend Developer / Arquitecto de Software Cloud — E-Commerce System"
+    periodo: "septiembre de 2024 – noviembre de 2025"
+    ubicacion: "Lima, Perú"
+    logros:
+      - "Cómputo serverless: punto de entrada con AWS API Gateway y funciones AWS Lambda para ejecutar la lógica de negocio bajo demanda, optimizando costos operativos."
+      - "Mensajería y desacoplamiento: patrón orientado a eventos con Amazon SNS y SQS para procesar tareas pesadas de forma asíncrona, soportando picos de tráfico sin caídas."
+      - "Bases de datos y almacenamiento: capa de datos con Amazon Aurora Serverless (RDS) para transacciones relacionales complejas y Amazon S3 para almacenamiento seguro de archivos."
+      - "Seguridad y notificaciones: control de accesos y autenticación con Amazon Cognito (tokens JWT) e integración de Amazon SES para correos transaccionales automatizados."
+
+educacion:
+  - institucion: "Universidad Peruana de Ciencias Aplicadas (UPC)"
+    titulo: "Ingeniería de Software"
+    periodo: "junio de 2021"
+
+habilidades:
+  "Lenguajes": ["Java 21", "Python", "JavaScript / TypeScript"]
+  "Frameworks": ["Spring Boot 3", "Spring Cloud", "Quarkus", "Angular"]
+  "Cloud & Mensajería": ["Azure (Service Bus, Blob, Key Vault, AD)", "AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)"]
+  "Datos": ["PostgreSQL", "Amazon Aurora", "Flyway"]
+  "Prácticas": ["Arquitectura Hexagonal", "Event-Driven", "CI/CD", "OAuth2 / JWT", "Observabilidad (Prometheus, Micrometer)"]
+  "Calidad": ["JaCoCo", "SonarQube", "OWASP Dependency Check"]
+
+idiomas:
+  - "Español — Nativo"
+  - "Inglés — Profesional"
+
+certificaciones:
+  - "Programming for Everybody (Getting Started with Python)"
+  - "Python for Everybody"
+  - "Using Python to Access Web Data"
+  - "Using Databases with Python"
+  - "Python Data Structures"
