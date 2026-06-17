@@ -20,13 +20,11 @@
     padding: 0.7in 0.8in;
     box-shadow: 0 2px 14px rgba(0,0,0,.18);
   }
-
   header { text-align: center; margin-bottom: 16px; }
   h1 { font-size: 20pt; letter-spacing: 2px; font-weight: bold; }
   .titular { font-size: 10.5pt; font-style: italic; margin-top: 3px; }
   .contacto { font-size: 9.5pt; margin-top: 6px; }
   .contacto a { color: #000; text-decoration: none; }
-
   section { margin-top: 14px; }
   h2 {
     font-size: 11pt; text-transform: uppercase; letter-spacing: 1px;
@@ -34,7 +32,6 @@
     padding-bottom: 2px; margin-bottom: 8px;
   }
   .resumen { text-align: justify; }
-
   .entry { margin-bottom: 11px; }
   .entry:last-child { margin-bottom: 0; }
   .entry-head { display: flex; justify-content: space-between; align-items: baseline; }
@@ -43,9 +40,7 @@
   .sub { font-style: italic; margin: 1px 0 4px; }
   ul { padding-left: 18px; margin-top: 2px; }
   li { margin-bottom: 2px; text-align: justify; }
-
   .skill-line { margin-bottom: 3px; }
-
   .dl-btn {
     position: fixed; top: 20px; right: 20px;
     background: #16526e; color: #fff; text-decoration: none;
@@ -54,23 +49,22 @@
     z-index: 100;
   }
   .dl-btn:hover { background: #1d6a8f; }
-
   @media print {
     body { background: #fff; }
     .page { box-shadow: none; margin: 0; width: auto; min-height: auto; padding: 0; }
     section, .entry { page-break-inside: avoid; }
-    .dl-btn { display: none; } 
+    .dl-btn { display: none; }
   }
   @page { size: letter; margin: 0.7in 0.8in; }
 </style>
 </head>
 <body>
-  <a class="dl-btn" href="cv.pdf" download>⬇ Descargar PDF</a>
+  <a class="dl-btn" href="cv.pdf" download="Alejandro_Espino_Flores_CV.pdf">⬇ Descargar PDF</a>
   <div class="page">
     <header>
       <h1>ALEJANDRO ESPINO FLORES</h1>
       <div class="titular">Backend Developer | Spring Boot · Quarkus · Angular · Azure · Microservicios · Integración de IA</div>
-      <div class="contacto">Área metropolitana de Lima, Perú &nbsp;|&nbsp; 955 059 544 &nbsp;|&nbsp; <a href="mailto:espinofloresa@gmail.com">espinofloresa@gmail.com</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/alejandro-espino-flores-b7b139253">linkedin.com/in/alejandro-espino-flores-b7b139253</a></div>
+      <div class="contacto">Área metropolitana de Lima, Perú &nbsp;|&nbsp; 955 059 544 &nbsp;|&nbsp; <a href="mailto:espinofloresa@gmail.com">espinofloresa@gmail.com</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/alejandro-espino-flores">linkedin.com/in/alejandro-espino-flores</a></div>
     </header>
 
     <section>
@@ -87,7 +81,7 @@
             <span class="dates">noviembre de 2025 – Actualidad</span>
           </div>
           <div class="sub">Senior Backend Developer — DINET (Plataforma Logística) — Lima, Perú</div>
-          <ul><li>Microservicios: diseñé e implementé servicios distribuidos en Java 21 / Spring Boot 3 / Spring Cloud, aplicando arquitectura hexagonal para garantizar escalabilidad y mantenibilidad.</li><li>Mensajería event-driven: procesamiento asíncrono con Azure Service Bus para desacoplar flujos de ingesta y sincronización, soportando picos de carga sin pérdida de mensajes.</li><li>Datos y almacenamiento cloud: capa de persistencia sobre Azure Database for PostgreSQL con autenticación passwordless vía Azure AD, e integración de Azure Blob Storage para evidencias y archivos.</li><li>Seguridad y gateway: autenticación centralizada con OAuth2 + JWT y secretos en Azure Key Vault, exponiendo el tráfico mediante API Gateways con trazabilidad end-to-end.</li><li>Comunicación y observabilidad: integración de servicios vía OpenFeign y Service Bus, con Micrometer + Prometheus y logging estructurado con Logstash.</li><li>Backend móvil: servicios para una app de operación en campo con formularios dinámicos, captura de evidencias y notificaciones push vía Firebase.</li><li>Calidad y DevOps: JaCoCo, SonarQube, OWASP Dependency Check y Flyway para migraciones versionadas.</li></ul>
+          <ul><li>Microservicios: diseñé e implementé servicios distribuidos en Java 17-21 / Spring Boot 3 / Spring Cloud, aplicando arquitectura hexagonal para garantizar escalabilidad y mantenibilidad.</li><li>Mensajería event-driven: procesamiento asíncrono con Azure Service Bus para desacoplar flujos de ingesta y sincronización, soportando picos de carga sin pérdida de mensajes.</li><li>Datos y almacenamiento cloud: capa de persistencia sobre Azure Database for PostgreSQL con autenticación passwordless vía Azure AD, e integración de Azure Blob Storage para evidencias y archivos.</li><li>Seguridad y gateway: autenticación centralizada con OAuth2 + JWT y secretos en Azure Key Vault, exponiendo el tráfico mediante API Gateways con trazabilidad end-to-end.</li><li>Comunicación y observabilidad: integración de servicios vía OpenFeign y Service Bus, con Micrometer + Prometheus y logging estructurado con Logstash.</li><li>Backend móvil: servicios para una app de operación en campo con formularios dinámicos, captura de evidencias y notificaciones push vía Firebase.</li><li>Calidad y DevOps: JaCoCo, SonarQube, OWASP Dependency Check y Flyway para migraciones versionadas.</li></ul>
         </div>
         <div class="entry">
           <div class="entry-head">
