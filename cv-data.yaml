@@ -5,7 +5,7 @@ ubicacion: "Área metropolitana de Lima, Perú"
 contacto:
   email: "espinofloresa@gmail.com"
   telefono: "955 059 544"
-  linkedin: "linkedin.com/in/alejandro-espino-flores-b7b139253"
+  linkedin: "linkedin.com/in/alejandro-espino-flores"
 
 resumen: >
   Backend Developer con experiencia diseñando microservicios distribuidos en
@@ -19,7 +19,7 @@ experiencia:
     periodo: "noviembre de 2025 – Actualidad"
     ubicacion: "Lima, Perú"
     logros:
-      - "Microservicios: diseñé e implementé servicios distribuidos en Java 21 / Spring Boot 3 / Spring Cloud, aplicando arquitectura hexagonal para garantizar escalabilidad y mantenibilidad."
+      - "Microservicios: diseñé e implementé servicios distribuidos en Java 17-21 / Spring Boot 3 / Spring Cloud, aplicando arquitectura hexagonal para garantizar escalabilidad y mantenibilidad."
       - "Mensajería event-driven: procesamiento asíncrono con Azure Service Bus para desacoplar flujos de ingesta y sincronización, soportando picos de carga sin pérdida de mensajes."
       - "Datos y almacenamiento cloud: capa de persistencia sobre Azure Database for PostgreSQL con autenticación passwordless vía Azure AD, e integración de Azure Blob Storage para evidencias y archivos."
       - "Seguridad y gateway: autenticación centralizada con OAuth2 + JWT y secretos en Azure Key Vault, exponiendo el tráfico mediante API Gateways con trazabilidad end-to-end."

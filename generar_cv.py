@@ -141,7 +141,7 @@ TEMPLATE = """<!DOCTYPE html>
 </style>
 </head>
 <body>
-  <a class="dl-btn" href="cv.pdf" download>⬇ Descargar PDF</a>
+  <a class="dl-btn" href="cv.pdf" download="Alejandro_Espino_Flores_CV.pdf">⬇ Descargar PDF</a>
   <div class="page">
     <header>
       <h1>{nombre}</h1>
