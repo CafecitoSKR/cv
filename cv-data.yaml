@@ -28,7 +28,7 @@ experiencia:
       - "Calidad y DevOps: JaCoCo, SonarQube, OWASP Dependency Check y Flyway para migraciones versionadas."
 
   - empresa: "Backend Developer"
-    cargo: "Senior Backend Developer / Arquitecto de Software Cloud — E-Commerce System"
+    cargo: "Backend Developer / Arquitecto de Software Cloud — E-Commerce System"
     periodo: "septiembre de 2024 – noviembre de 2025"
     ubicacion: "Lima, Perú"
     logros:
@@ -55,6 +55,9 @@ idiomas:
   - "Inglés — Profesional"
 
 certificaciones:
+  - "Java SE 21 Developer Professional"
+  - "Software Architecture and Clean Code Design in OOP — Learn IT University (89 h)"
+  - "GoF Design Patterns - Complete Course with Java Examples — Learn IT University"
   - "Programming for Everybody (Getting Started with Python)"
   - "Python for Everybody"
   - "Using Python to Access Web Data"
