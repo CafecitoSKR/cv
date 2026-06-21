@@ -43,7 +43,7 @@ educacion:
     periodo: "junio de 2021"
 
 habilidades:
-  "Lenguajes": ["Java 21", "Python", "JavaScript / TypeScript"]
+  "Lenguajes": ["Java 17-21", "Python", "JavaScript / TypeScript"]
   "Frameworks": ["Spring Boot 3", "Spring Cloud", "Quarkus", "Angular"]
   "Cloud & Mensajería": ["Azure (Service Bus, Blob, Key Vault, AD)", "AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)"]
   "Datos": ["PostgreSQL", "Amazon Aurora", "Flyway"]
