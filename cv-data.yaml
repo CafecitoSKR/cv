@@ -8,10 +8,11 @@ contacto:
   linkedin: "linkedin.com/in/alejandro-espino-flores"
 
 resumen: >
-  Backend Developer con experiencia diseñando microservicios distribuidos en
-  Java 21 / Spring Boot 3 y arquitecturas serverless en AWS. Especializado en
-  sistemas event-driven, seguridad OAuth2/JWT, persistencia cloud (PostgreSQL,
-  Aurora) y observabilidad. Enfoque en escalabilidad, calidad de código y CI/CD.
+  Backend Developer con más de 5 años de experiencia en el ecosistema Java,
+  diseñando microservicios distribuidos en Java 21 / Spring Boot 3 y
+  arquitecturas serverless en AWS. Especializado en sistemas event-driven,
+  seguridad OAuth2/JWT, persistencia cloud (PostgreSQL, Aurora) y
+  observabilidad. Enfoque en escalabilidad, calidad de código y CI/CD.
 
 experiencia:
   - empresa: "CSTI Corp"
@@ -37,6 +38,18 @@ experiencia:
       - "Bases de datos y almacenamiento: capa de datos con Amazon Aurora Serverless (RDS) para transacciones relacionales complejas y Amazon S3 para almacenamiento seguro de archivos."
       - "Seguridad y notificaciones: control de accesos y autenticación con Amazon Cognito (tokens JWT) e integración de Amazon SES para correos transaccionales automatizados."
 
+  - empresa: "Atik Soluciones"
+    cargo: "Backend Developer Semi Senior"
+    periodo: "julio de 2021 – agosto de 2024"
+    ubicacion: "Lima, Perú"
+    logros:
+      - "APIs REST: desarrollé y mantuve servicios en Java 11-17 / Spring Boot 2-3 con Spring Data JPA sobre PostgreSQL y MySQL, aplicando versionado de endpoints y documentación con OpenAPI/Swagger."
+      - "Integraciones con terceros: consumo y exposición de servicios hacia sistemas externos (REST y SOAP legacy), con manejo de reintentos, idempotencia y trazabilidad de las transacciones."
+      - "Procesos batch: automaticé cargas y conciliaciones periódicas con Spring Batch y tareas programadas, reduciendo trabajo manual del área operativa."
+      - "Calidad y pruebas: pruebas unitarias e integración con JUnit 5, Mockito y Testcontainers, incorporando análisis estático al flujo de revisión de código."
+      - "Contenedores y despliegue: empaquetado de servicios con Docker y pipelines de build en Git, colaborando en despliegues sobre ambientes de desarrollo, QA y producción."
+      - "Trabajo en equipo: participación en ceremonias Scrum, refinamiento de historias con el área funcional y mentoría a desarrolladores junior en buenas prácticas de código."
+
 educacion:
   - institucion: "Universidad Peruana de Ciencias Aplicadas (UPC)"
     titulo: "Ingeniería de Software"
@@ -46,9 +59,10 @@ habilidades:
   "Lenguajes": ["Java 17-21", "Python", "JavaScript / TypeScript"]
   "Frameworks": ["Spring Boot 3", "Spring Cloud", "Quarkus", "Angular"]
   "Cloud & Mensajería": ["Azure (Service Bus, Blob, Key Vault, AD)", "AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)"]
-  "Datos": ["PostgreSQL", "Amazon Aurora", "Flyway"]
-  "Prácticas": ["Arquitectura Hexagonal", "Event-Driven", "CI/CD", "OAuth2 / JWT", "Observabilidad (Prometheus, Micrometer)"]
-  "Calidad": ["JaCoCo", "SonarQube", "OWASP Dependency Check"]
+  "Datos": ["PostgreSQL", "MySQL", "Amazon Aurora", "Flyway"]
+  "Prácticas": ["Arquitectura Hexagonal", "Event-Driven", "CI/CD", "OAuth2 / JWT", "Observabilidad (Prometheus, Micrometer)", "Scrum"]
+  "Calidad": ["JUnit 5", "Mockito", "Testcontainers", "JaCoCo", "SonarQube", "OWASP Dependency Check"]
+  "Herramientas": ["Docker", "Git", "OpenAPI / Swagger"]
 
 idiomas:
   - "Español — Nativo"
