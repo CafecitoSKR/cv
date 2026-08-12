@@ -8,7 +8,7 @@ contacto:
   linkedin: "linkedin.com/in/alejandro-espino-flores"
 
 resumen: >
-  Backend Developer con más de 5 años de experiencia en el ecosistema Java,
+  Backend Developer con más de 4 años de experiencia en el ecosistema Java,
   diseñando microservicios distribuidos en Java 21 / Spring Boot 3 y
   arquitecturas serverless en AWS. Especializado en sistemas event-driven,
   seguridad OAuth2/JWT, persistencia cloud (PostgreSQL, Aurora) y
@@ -40,7 +40,7 @@ experiencia:
 
   - empresa: "Atik Soluciones"
     cargo: "Backend Developer Semi Senior"
-    periodo: "julio de 2021 – agosto de 2024"
+    periodo: "enero de 2022 – agosto de 2024"
     ubicacion: "Lima, Perú"
     logros:
       - "APIs REST: desarrollé y mantuve servicios en Java 11-17 / Spring Boot 2-3 con Spring Data JPA sobre PostgreSQL y MySQL, aplicando versionado de endpoints y documentación con OpenAPI/Swagger."
