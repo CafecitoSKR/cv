@@ -43,10 +43,12 @@ experiencia:
     periodo: "enero de 2022 – agosto de 2024"
     ubicacion: "Lima, Perú"
     logros:
-      - "APIs REST: desarrollé y mantuve servicios en Java 11-17 / Spring Boot 2-3 con Spring Data JPA sobre PostgreSQL y MySQL, aplicando versionado de endpoints y documentación con OpenAPI/Swagger."
-      - "Integraciones con terceros: consumo y exposición de servicios hacia sistemas externos (REST y SOAP legacy), con manejo de reintentos, idempotencia y trazabilidad de las transacciones."
-      - "Procesos batch: automaticé cargas y conciliaciones periódicas con Spring Batch y tareas programadas, reduciendo trabajo manual del área operativa."
-      - "Calidad y pruebas: pruebas unitarias e integración con JUnit 5, Mockito y Testcontainers, incorporando análisis estático al flujo de revisión de código."
+      - "APIs REST con NestJS: desarrollé y mantuve servicios en Node.js / TypeScript con NestJS (módulos, controllers, providers, guards, pipes e interceptors), persistencia con TypeORM y Prisma sobre PostgreSQL y MySQL, y documentación con OpenAPI/Swagger (@nestjs/swagger)."
+      - "Arquitectura y buenas prácticas: inyección de dependencias de NestJS, DTOs validados con class-validator / class-transformer, manejo centralizado de errores con exception filters y configuración por ambiente con @nestjs/config."
+      - "Seguridad: autenticación y autorización con Passport + JWT y guards por roles para proteger los endpoints."
+      - "Integraciones con terceros: consumo y exposición de servicios hacia sistemas externos (REST y SOAP legacy) con HttpModule/Axios, manejo de reintentos, idempotencia y trazabilidad de las transacciones; mantenimiento de servicios existentes en Java / Spring Boot."
+      - "Procesos asíncronos y batch: colas con BullMQ + Redis y tareas programadas con @nestjs/schedule para cargas y conciliaciones periódicas, reduciendo trabajo manual del área operativa."
+      - "Calidad y pruebas: pruebas unitarias y e2e con Jest y Supertest usando el TestingModule de NestJS, con ESLint y análisis estático en el flujo de revisión de código."
       - "Contenedores y despliegue: empaquetado de servicios con Docker y pipelines de build en Git, colaborando en despliegues sobre ambientes de desarrollo, QA y producción."
       - "Trabajo en equipo: participación en ceremonias Scrum, refinamiento de historias con el área funcional y mentoría a desarrolladores junior en buenas prácticas de código."
 
@@ -57,11 +59,11 @@ educacion:
 
 habilidades:
   "Lenguajes": ["Java 17-21", "Python", "JavaScript / TypeScript"]
-  "Frameworks": ["Spring Boot 3", "Spring Cloud", "Quarkus", "Angular"]
+  "Frameworks": ["Spring Boot 3", "Spring Cloud", "Quarkus", "NestJS", "Angular"]
   "Cloud & Mensajería": ["Azure (Service Bus, Blob, Key Vault, AD)", "AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)"]
   "Datos": ["PostgreSQL", "MySQL", "Amazon Aurora", "Flyway"]
   "Prácticas": ["Arquitectura Hexagonal", "Event-Driven", "CI/CD", "OAuth2 / JWT", "Observabilidad (Prometheus, Micrometer)", "Scrum"]
-  "Calidad": ["JUnit 5", "Mockito", "Testcontainers", "JaCoCo", "SonarQube", "OWASP Dependency Check"]
+  "Calidad": ["JUnit 5", "Mockito", "Jest", "Testcontainers", "JaCoCo", "SonarQube", "OWASP Dependency Check"]
   "Herramientas": ["Docker", "Git", "OpenAPI / Swagger"]
 
 idiomas:

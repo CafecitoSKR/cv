@@ -50,12 +50,18 @@
   }
   .dl-btn:hover { background: #1d6a8f; }
   @media print {
-    body { background: #fff; }
-    .page { box-shadow: none; margin: 0; width: auto; min-height: auto; padding: 0; }
-    section, .entry { page-break-inside: avoid; }
+    body { background: #fff; font-size: 10.5pt; }
+    .page {
+      box-shadow: none; margin: 0; padding: 0;
+      width: 100%; max-width: 100%; min-height: auto;
+    }
+    .entry { page-break-inside: avoid; break-inside: avoid; }
+    h2 { page-break-after: avoid; break-after: avoid; }
+    .entry-head, .sub { page-break-after: avoid; break-after: avoid; }
+    li { orphans: 2; widows: 2; }
     .dl-btn { display: none; }
   }
-  @page { size: letter; margin: 0.7in 0.8in; }
+  @page { size: letter; margin: 0.6in 0.7in; }
 </style>
 </head>
 <body>
@@ -97,7 +103,7 @@
             <span class="dates">enero de 2022 – agosto de 2024</span>
           </div>
           <div class="sub">Backend Developer Semi Senior — Lima, Perú</div>
-          <ul><li>APIs REST: desarrollé y mantuve servicios en Java 11-17 / Spring Boot 2-3 con Spring Data JPA sobre PostgreSQL y MySQL, aplicando versionado de endpoints y documentación con OpenAPI/Swagger.</li><li>Integraciones con terceros: consumo y exposición de servicios hacia sistemas externos (REST y SOAP legacy), con manejo de reintentos, idempotencia y trazabilidad de las transacciones.</li><li>Procesos batch: automaticé cargas y conciliaciones periódicas con Spring Batch y tareas programadas, reduciendo trabajo manual del área operativa.</li><li>Calidad y pruebas: pruebas unitarias e integración con JUnit 5, Mockito y Testcontainers, incorporando análisis estático al flujo de revisión de código.</li><li>Contenedores y despliegue: empaquetado de servicios con Docker y pipelines de build en Git, colaborando en despliegues sobre ambientes de desarrollo, QA y producción.</li><li>Trabajo en equipo: participación en ceremonias Scrum, refinamiento de historias con el área funcional y mentoría a desarrolladores junior en buenas prácticas de código.</li></ul>
+          <ul><li>APIs REST con NestJS: desarrollé y mantuve servicios en Node.js / TypeScript con NestJS (módulos, controllers, providers, guards, pipes e interceptors), persistencia con TypeORM y Prisma sobre PostgreSQL y MySQL, y documentación con OpenAPI/Swagger (@nestjs/swagger).</li><li>Arquitectura y buenas prácticas: inyección de dependencias de NestJS, DTOs validados con class-validator / class-transformer, manejo centralizado de errores con exception filters y configuración por ambiente con @nestjs/config.</li><li>Seguridad: autenticación y autorización con Passport + JWT y guards por roles para proteger los endpoints.</li><li>Integraciones con terceros: consumo y exposición de servicios hacia sistemas externos (REST y SOAP legacy) con HttpModule/Axios, manejo de reintentos, idempotencia y trazabilidad de las transacciones; mantenimiento de servicios existentes en Java / Spring Boot.</li><li>Procesos asíncronos y batch: colas con BullMQ + Redis y tareas programadas con @nestjs/schedule para cargas y conciliaciones periódicas, reduciendo trabajo manual del área operativa.</li><li>Calidad y pruebas: pruebas unitarias y e2e con Jest y Supertest usando el TestingModule de NestJS, con ESLint y análisis estático en el flujo de revisión de código.</li><li>Contenedores y despliegue: empaquetado de servicios con Docker y pipelines de build en Git, colaborando en despliegues sobre ambientes de desarrollo, QA y producción.</li><li>Trabajo en equipo: participación en ceremonias Scrum, refinamiento de historias con el área funcional y mentoría a desarrolladores junior en buenas prácticas de código.</li></ul>
         </div>
     </section>
 
@@ -115,7 +121,7 @@
 
     <section>
       <h2>Habilidades Técnicas</h2>
-      <div class="skill-line"><b>Lenguajes:</b> Java 21, Python, JavaScript / TypeScript</div><div class="skill-line"><b>Frameworks:</b> Spring Boot 3, Spring Cloud, Quarkus, Angular</div><div class="skill-line"><b>Cloud &amp; Mensajería:</b> Azure (Service Bus, Blob, Key Vault, AD), AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)</div><div class="skill-line"><b>Datos:</b> PostgreSQL, MySQL, Amazon Aurora, Flyway</div><div class="skill-line"><b>Prácticas:</b> Arquitectura Hexagonal, Event-Driven, CI/CD, OAuth2 / JWT, Observabilidad (Prometheus, Micrometer), Scrum</div><div class="skill-line"><b>Calidad:</b> JUnit 5, Mockito, Testcontainers, JaCoCo, SonarQube, OWASP Dependency Check</div><div class="skill-line"><b>Herramientas:</b> Docker, Git, OpenAPI / Swagger</div>
+      <div class="skill-line"><b>Lenguajes:</b> Java 17-21, Python, JavaScript / TypeScript</div><div class="skill-line"><b>Frameworks:</b> Spring Boot 3, Spring Cloud, Quarkus, NestJS, Angular</div><div class="skill-line"><b>Cloud &amp; Mensajería:</b> Azure (Service Bus, Blob, Key Vault, AD), AWS (Lambda, SNS/SQS, Aurora, S3, Cognito, SES)</div><div class="skill-line"><b>Datos:</b> PostgreSQL, MySQL, Amazon Aurora, Flyway</div><div class="skill-line"><b>Prácticas:</b> Arquitectura Hexagonal, Event-Driven, CI/CD, OAuth2 / JWT, Observabilidad (Prometheus, Micrometer), Scrum</div><div class="skill-line"><b>Calidad:</b> JUnit 5, Mockito, Jest, Testcontainers, JaCoCo, SonarQube, OWASP Dependency Check</div><div class="skill-line"><b>Herramientas:</b> Docker, Git, OpenAPI / Swagger</div>
     </section>
 
     <section>

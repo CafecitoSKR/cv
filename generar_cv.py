@@ -132,12 +132,18 @@ TEMPLATE = """<!DOCTYPE html>
   }}
   .dl-btn:hover {{ background: #1d6a8f; }}
   @media print {{
-    body {{ background: #fff; }}
-    .page {{ box-shadow: none; margin: 0; width: auto; min-height: auto; padding: 0; }}
-    section, .entry {{ page-break-inside: avoid; }}
+    body {{ background: #fff; font-size: 10.5pt; }}
+    .page {{
+      box-shadow: none; margin: 0; padding: 0;
+      width: 100%; max-width: 100%; min-height: auto;
+    }}
+    .entry {{ page-break-inside: avoid; break-inside: avoid; }}
+    h2 {{ page-break-after: avoid; break-after: avoid; }}
+    .entry-head, .sub {{ page-break-after: avoid; break-after: avoid; }}
+    li {{ orphans: 2; widows: 2; }}
     .dl-btn {{ display: none; }}
   }}
-  @page {{ size: letter; margin: 0.7in 0.8in; }}
+  @page {{ size: letter; margin: 0.6in 0.7in; }}
 </style>
 </head>
 <body>
